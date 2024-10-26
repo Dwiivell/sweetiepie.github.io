@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap');
+@import url('https"//fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap');
 
 body {
     color: #111;
@@ -11,24 +11,22 @@ body {
     font-family: 'Baloo Thambi 2', cursive;
     font-weight: 700;
     font-size: 5rem;
-    overflow: hidden;
     flex-direction: column;
 }
-
 .container {
     margin-top: 100px;
 }
 
-.container > span {
+.container > span{
     animation: glow 2s ease-in-out infinite;
 }
 
 @keyframes glow {
-    0%, 100% {
+    0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px rgb(255, 27, 240), 0 0 50px rgb(255, 27, 240), 0 0 100px rgb(255, 27, 240);
+        text-shadow:  0 0 12px rgb(255, 27, 240), 0 0 50px rgb(255, 27, 240), 0 0 100px rgb(255, 27, 240);
     }
-    10%, 90% {
+    10%, 90%{
         color: #111;
         text-shadow: none;
     }
@@ -45,7 +43,6 @@ body {
     margin-top: -30px;
     text-align: center;
 }
-
 .button button {
     font-size: 1rem;
     padding: 10px 30px;
@@ -86,41 +83,4 @@ body {
 }
 .container > span:nth-child(12) {
     animation-delay: 1.80s;
-}
-
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-    body {
-        font-size: 3rem;
-    }
-
-    .deskripsi {
-        font-size: 1.2rem;
-        margin-top: 50px;
-    }
-
-    .button button {
-        font-size: 0.9rem;
-        padding: 8px 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 2rem;
-    }
-
-    .container {
-        margin-top: 60px;
-    }
-
-    .deskripsi {
-        font-size: 1rem;
-        margin-top: 40px;
-    }
-
-    .button button {
-        font-size: 0.8rem;
-        padding: 6px 15px;
-    }
 }
